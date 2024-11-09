@@ -1,0 +1,35 @@
+.header {
+  background-color: var(--secondary-color);
+  padding: 1rem 2rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.navList {
+  display: flex;
+  list-style-type: none;
+}
+
+.navList li {
+  margin-left: 1rem;
+}
+
+.navList a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navList a:hover {
+  color: var(--primary-color);
+}
